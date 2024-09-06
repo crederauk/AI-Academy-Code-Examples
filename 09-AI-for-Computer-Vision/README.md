@@ -1,6 +1,6 @@
 # 09-AI-for-Computer-Vision
 
-This repository contains a Jupyter Notebooks that demonstrates how to perform computer vision tasks using Keras and TensorFlow.
+This repository contains Jupyter Notebooks that demonstrate how to perform computer vision tasks using Keras and TensorFlow.
 
 
 ## Dependencies
