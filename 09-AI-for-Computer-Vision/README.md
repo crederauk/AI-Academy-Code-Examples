@@ -60,3 +60,19 @@ This repository contains Jupyter Notebooks that demonstrate how to perform compu
 - Demonstrates how to load and use the model and processor from Hugging Face.
 - Includes a function to classify images from URLs using the Hugging Face model.
 - Provides example usage with different image URLs.
+
+## Notebook-2 Contents
+
+**1. Configure a TensorFlow 2 envrionment within Colab:**
+- Clones the official TensorFlow 2 Model Garden
+- Configures TensorFlow 2.15.0 (latest version that works with Colab)
+- Runs the TensorFlow Model Builder test script to ensure the environment and hardware are working correctly
+
+**2. Download a pre-trained TensorFlow Lite animal detection model:**
+- Clones a repo containing a model is pre-trained to detect Badgers and Foxes
+
+**3. Test the TensorFlow Lite model in TensorFlow against stock footage of a Badger:**
+- A Python script is provided which takes an mp4 and processes this frame-by-frame (based on a given framerate)
+- Motion detection is performed on each frame with an output highlighting changed pixels since the last frame
+- Object detection is performed on each frame with bounding boxes drawn around the detected object (animal)
+- Images are outputted for both motion detect and object detection
